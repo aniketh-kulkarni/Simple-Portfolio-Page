@@ -1,0 +1,59 @@
+/* Apply basic styling to the body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the navbar */
+#navbar {
+  background-color: #333;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+/* Style the welcome section */
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+/* Style the projects section */
+#projects {
+  padding: 20px;
+}
+
+.project-tile {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* Apply a media query for responsiveness */
+@media screen and (max-width: 600px) {
+  #navbar a {
+    display: block;
+    margin: 10px 0;
+  }
+}
